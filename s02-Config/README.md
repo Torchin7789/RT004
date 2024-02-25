@@ -4,13 +4,13 @@
 * Copy the pilot project in your directory [/solution](../solution).
   Detailed instructions are in the section "Your solution" of
   the [global README.md](../README.md).
-* Setup a simple command-line parameter and config-file parsing system
-  – any simple text based (or XML-based) format is possible
-* You can use the `CommandLineParser` (via the NuGet system) for
-  command line parsing. It is always a good idea to be able to
-  reference your config file from a command line argument
-  (this way you can have multiple config files and easily switch
-  between them)
+* Setup a simple **command line parameter** parsing, you can use
+  the `CommandLineParser` (via the NuGet system)
+* Choose a **config file parsing** system – any simple text based
+  (or **XML**-based, **JSON**...) format is possible
+* It is always a good idea to be able to reference your config file
+  from a command line argument (this way you can have multiple
+  config files and easily switch between them)
 * Put all your **config files** under GIT control, it helps other
   people (me) to test your project. Fill the text box
   `Debug/rt004 Debug Properties/Command line arguments` with reasonable

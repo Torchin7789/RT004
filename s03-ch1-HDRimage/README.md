@@ -6,10 +6,12 @@
   Any images based on simple patterns, goniometry, etc. will suffice
 * Please test your **command-line/config parameters**, try to modify
   the image resolution and content
+* Don't forget to describe all your **command line arguments**, and **config
+  file items** in the documentation (semantics, allowed values, default values)
 
 # Checkpoint 1
 Send me the URL of your repository, I'll give it a try (access, compile,
-run, check the HDR image). I'll also try to modify your config file...
+run, check the HDR image). I'll also try to modify your arguments/config file...
 
 ## Useful links
 * HDR image viewer [Picturenaut](https://picturenaut.en.softonic.com/)
