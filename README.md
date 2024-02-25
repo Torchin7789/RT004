@@ -117,7 +117,7 @@ Please invite me - https://gitlab.mff.cuni.cz/pelikan.
   directory.
 * You can tag your **GIT history** (e.g. `Chk 1` etc.) for archiving your
   progress at the checkpoints. It is always a good idea to write me an email!
-* With one exception ([s03-ch1-HDRimage](s03-ch1-HDRimage/README.md) there is no
+* With one exception ([s03-ch1-HDRimage](s03-ch1-HDRimage/README.md)) there is no
   need to use **branches to communicate with me**. Please keep your best
   working version in the **`main`** branch (of course, you can use branches for your
   temporary work states)

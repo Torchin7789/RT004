@@ -8,9 +8,15 @@ your own solution in this directory. The section is called "Your solution".
 Your name
 
 -----
-You should make a copy of the rest of this template for
-each checkpoint. You can remove irrelevant parts for the
-clarity of the document.
+There are two possible approaches to your documentation:
+1. either you make a copy of the rest of this template for each checkpoint,
+  and append new documentation (for every step/checkpoint) to the end of
+  this file
+2. or you can use this document as a "road map" and refer to all of the
+  other documents from here
+
+You can remove **irrelevant parts** of your documentation for the
+clarity.
 
 ## Checkpoint X (tag `Chk X`)
 Briefly describe the objectives of the checkpoint.
@@ -18,8 +24,9 @@ Briefly describe the objectives of the checkpoint.
 ### Command line arguments
 List all the arguments here, with default values.
 
-### Input data
-Define the format of the input data if it is relevant to the program.
+### Config file
+Describe all config file data, including semantics (except the obvious),
+allowed, and default values.
 
 ### Algorithm
 Any details of the algorithms worth mentioning should go here.
