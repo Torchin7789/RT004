@@ -17,12 +17,15 @@ internal class Program
 
     // TODO: put anything interesting into the image.
 
-    // Example - putting one green pixel close to the upper left corner...
-    float[] green = { 0.1f, 1.0f, 0.1f };   // R, G, B
-    fi.PutPixel(1, 1, green);
+    // Example - putting one red pixel close to the upper left corner...
+    float[] red = { 1.0f, 0.1f, 0.1f };   // R, G, B
+    fi.PutPixel(1, 1, red);
 
-    //fi.SaveHDR(fileName);     // HDR format is still buggy
-    fi.SavePFM(fileName);     // Works ok with the PFM format
+    // Save the HDR image.
+    if (fileName.EndsWith(".hdr"))
+      fi.SaveHDR(fileName);     // HDR format is still buggy
+    else
+      fi.SavePFM(fileName);     // PFM format works well
 
     Console.WriteLine($"HDR image '{fileName}' is finished.");
   }
