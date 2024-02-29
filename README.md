@@ -22,7 +22,9 @@ Select `.NET 6.0 (Long Term Support)` if creating a new project,
 it works well on Windows, Linux and macOS.
 
 We use `Visual Studio 2022`, the [Community](https://visualstudio.microsoft.com/vs/community/)
-(free) version is good enough for all tasks.
+(free) version is good enough for all tasks. Linux users can use
+[Visual Studio Code](https://code.visualstudio.com/), which is able to open
+`.sln`, `.csproj` files and even the saved options from Visual Studio. 
 
 ## Point table
 See [this shared table](https://docs.google.com/spreadsheets/d/1rOb0dhPapRahL4XWfD5Ar2pz9qGD7f0cMBM8gY_RkEE/edit?usp=sharing)
@@ -116,7 +118,9 @@ Please invite me - https://gitlab.mff.cuni.cz/pelikan.
   The recommended location for your solutions is the [solution](solution)
   directory.
 * You can tag your **GIT history** (e.g. `Chk 1` etc.) for archiving your
-  progress at the checkpoints. It is always a good idea to write me an email!
+  progress at the checkpoints. It is always a good idea to write me an email
+  or mention me in the **commit message** (`@pepcape` on GitHub, `@pelikan` on
+  GitLab)!
 * With one exception ([s03-ch1-HDRimage](s03-ch1-HDRimage/README.md)) there is no
   need to use **branches to communicate with me**. Please keep your best
   working version in the **`main`** branch (of course, you can use branches for your

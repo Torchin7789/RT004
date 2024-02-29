@@ -13,6 +13,9 @@
 Send me the URL of your repository, I'll give it a try (access, compile,
 run, check the HDR image). I'll also try to modify your arguments/config file...
 
+Don't forget to mention me in your **commit message** (`@pepcape` on GitHub,
+`@pelikan` on GitLab).
+
 ## Useful links
 * HDR image viewer [Picturenaut](https://picturenaut.en.softonic.com/)
 * LDR image viewer [IrfanView](https://www.irfanview.com/main_download_engl.htm)
