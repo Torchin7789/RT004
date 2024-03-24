@@ -2,7 +2,7 @@
   "profiles": {
     "rt004": {
       "commandName": "Project",
-      "commandLineArgs": "0",
+      "commandLineArgs": "10 30",
       "workingDirectory": "$(ProjectDir)"
     }
   }
