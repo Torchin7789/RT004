@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Compile Include="..\shared\FloatImage.cs" Link="shared\FloatImage.cs" />
+    <Compile Include="..\shared\Util.cs" Link="shared\Util.cs" />
   </ItemGroup>
 
   <ItemGroup>
