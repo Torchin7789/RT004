@@ -52,6 +52,7 @@ rt004/shared/
 rt004/shared/placeholder
 shared/
 shared/FloatImage.cs
+shared/Util.cs
 ```
 
 Template for your documentation is [here](solution/README.md). Please
