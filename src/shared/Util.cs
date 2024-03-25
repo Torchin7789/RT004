@@ -457,10 +457,8 @@ public abstract class MathUtil
   {
     Vector3d e1 = b - a;
     Vector3d e2 = c - a;
-    Vector3d pvec;
-    Vector3d.Cross(in p1, in e2, out pvec);
-    double det;
-    Vector3d.Dot(in e1, in pvec, out det);
+    Vector3d.Cross(in p1, in e2, out Vector3d pvec);
+    Vector3d.Dot(in e1, in pvec, out double det);
     uv.X = uv.Y = 0.0;
     if (IsZero(det))
       return double.NegativeInfinity;
@@ -472,8 +470,7 @@ public abstract class MathUtil
     if (uv.X < 0.0 || uv.X > 1.0)
       return double.NegativeInfinity;
 
-    Vector3d qvec;
-    Vector3d.Cross(in tvec, in e1, out qvec);
+    Vector3d.Cross(in tvec, in e1, out Vector3d qvec);
     Vector3d.Dot(in p1, in qvec, out uv.Y);
     uv.Y *= detInv;
     if (uv.Y < 0.0 || uv.X + uv.Y > 1.0)
@@ -511,23 +508,20 @@ public abstract class MathUtil
   {
     Vector3d e1 = (Vector3d)b - (Vector3d)a;
     Vector3d e2 = (Vector3d)c - (Vector3d)a;
-    Vector3d pvec;
-    Vector3d.Cross(in p1, in e2, out pvec);
-    double det;
-    Vector3d.Dot(in e1, in pvec, out det);
+    Vector3d.Cross(in p1, in e2, out Vector3d pvec);
+    Vector3d.Dot(in e1, in pvec, out double det);
     uv.X = uv.Y = 0.0;
     if (IsZero(det))
       return double.NegativeInfinity;
 
     double detInv = 1.0 / det;
-    Vector3d tvec = p0 - (Vector3d)a;
+    Vector3d tvec = p0 - a;
     Vector3d.Dot(in tvec, in pvec, out uv.X);
     uv.X *= detInv;
     if (uv.X < 0.0 || uv.X > 1.0)
       return double.NegativeInfinity;
 
-    Vector3d qvec;
-    Vector3d.Cross(in tvec, in e1, out qvec);
+    Vector3d.Cross(in tvec, in e1, out Vector3d qvec);
     Vector3d.Dot(in p1, in qvec, out uv.Y);
     uv.Y *= detInv;
     if (uv.Y < 0.0 || uv.X + uv.Y > 1.0)
