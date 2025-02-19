@@ -17,7 +17,8 @@ internal class Program
     // HDR image.
     FloatImage fi = new(wid, hei, 3);
 
-    // TODO: put anything interesting into the image.
+    // TODO: put anything interesting into the image
+    // TODO: use command-line arguments [and config file?] to define image dimensions, output file name, etc.
 
     // Pilot: try to read two float numbers (3D camera rotation - pitch and yaw in degrees)
     // Test values: 10 30
