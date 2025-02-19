@@ -6,7 +6,7 @@ own solution.
 Includes the `rt004` project - a command-line program that can create
 HDR files. This is a good starting point for your future raytracer.
 
-Used platform is `.NET 6.0 Command line` with simple helpers:
+Used platform is `.NET 8.0 Command line` with simple helpers:
 * `FloatImage.cs` - HDR raster image stored in memory, able to export to
   the `.pfm` format.
 * `Util.cs` - math and geometric support (intersections).

@@ -8,7 +8,8 @@
   The recommended location for your solution is the [solution](../solution) directory.
 * Write your initial documentation page using the
   [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),
-  [Another MarkDown page](https://www.markdownguide.org/basic-syntax/)
+  [Another MarkDown page](https://www.markdownguide.org/),
+  [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * Grant me **permissions** ("reporter", "collaborator") to your repository –
   <https://gitlab.mff.cuni.cz/pelikan>, <https://github.com/pepcape>
 * Although you will grant me access (and I will be notified by email),

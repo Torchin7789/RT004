@@ -1,9 +1,9 @@
 # RT004
-Support for the ***NPGR004 (Photorealistic graphics)*** lecture
+Support for the ***NPGR004 (Photorealistic graphics)*** lecture. Summer semester 2024/2025.
 
 ## Project plan
 Every `sNN-*` directory refers to one item of the lab plan
-(see [row 1 of this table](https://docs.google.com/spreadsheets/d/1rOb0dhPapRahL4XWfD5Ar2pz9qGD7f0cMBM8gY_RkEE/edit?usp=sharing))
+(see [row 2 of this table](https://docs.google.com/spreadsheets/d/1z7dicAiSr7U_-kgMnJnSRNH-OPHIabCPl8GcJCNzz-o/edit?usp=sharing))
 
 More details will be provided in this repository. Checkpoint
 information will be included in the associated step directories
@@ -15,10 +15,10 @@ extensions.
 
 ## src
 The src directory contains support files from the lecturer. The default
-version uses `.NET 6.0`, you can use the `.NET 7.0` variant if necessary
-(update the project file yourself in this case).
+version uses `.NET 8.0`
+(it goes well with [OpenTK.Mathematics 5.0-pre13](https://github.com/opentk/opentk/tree/opentk5.0)).
 
-Select `.NET 6.0 (Long Term Support)` if creating a new project,
+Select `.NET 8.0 (Long Term Support)` if creating a new project,
 it works well on Windows, Linux and macOS.
 
 We use `Visual Studio 2022`, the [Community](https://visualstudio.microsoft.com/vs/community/)
@@ -27,7 +27,7 @@ We use `Visual Studio 2022`, the [Community](https://visualstudio.microsoft.com/
 `.sln`, `.csproj` files and even the saved options from Visual Studio. 
 
 ## Point table
-See [this shared table](https://docs.google.com/spreadsheets/d/1rOb0dhPapRahL4XWfD5Ar2pz9qGD7f0cMBM8gY_RkEE/edit?usp=sharing)
+See [this shared table](https://docs.google.com/spreadsheets/d/1z7dicAiSr7U_-kgMnJnSRNH-OPHIabCPl8GcJCNzz-o/edit?usp=sharing)
 for current points. Check the dates of individual Checkpoints...
 
 Contact me <pepca@cgg.mff.cuni.cz> for any suggestions, comments or
@@ -112,11 +112,11 @@ Please invite me - https://gitlab.mff.cuni.cz/pelikan.
 * If anything doesn't work well in your **Linux/macOS environment**,
   you should write me (<pepca@cgg.mff.cuni.cz>) as soon as possible.
   Of course you could report positive experience in Linux/macOS as well.
-* It seems like the `System.Numerics` library doesn't support `double`
+* It seems like the `System.Numerics` library doesn't support fully the `double`
   types yet, so I'm going to use the lightweighted **`OpenTK.Mathematics`**
-  library instead, distributed in [NuGet form](https://www.nuget.org/packages/OpenTK.Mathematics/5.0.0-pre.8)
+  library instead, distributed in [NuGet form](https://www.nuget.org/packages/OpenTK.Mathematics/5.0.0-pre.13)
 * You can work in your repositories without major restrictions.
-  The recommended location for your solutions is the [solution](solution)
+  The recommended location for your solution is the [solution](solution)
   directory.
 * You can tag your **GIT history** (e.g. `Chk 1` etc.) for archiving your
   progress at the checkpoints. It is always a good idea to write me an email
@@ -132,12 +132,12 @@ Please invite me - https://gitlab.mff.cuni.cz/pelikan.
   it is easier to reference input/config files in this case
 * Put all your **input config (scene description) files** under GIT control,
   it helps other people (me) to test your project. Fill the text box
-  `Debug/rt004 Debug Properties/Command line arguments` with reasonable
+  `Debug -> rt004 Debug Properties -> Command line arguments` with reasonable
   values, as this item is also versioned
 * Update your `README.md` file[s] frequently, preferably after each checkpoint,
   I'd like to see your progress
-* **Visual Studio 2022** supports direct **MarkDown editing** (with live
-  result preview) starting from the 17.5 update
+* **Visual Studio 2022** supports direct **MarkDown editing** with live
+  result preview
 * While both parsing and writing floating point numbers, use strictly
   **neutral/invariant culture** - no floating "commas" `3,14`,
   only "dots" `3.14`. Remember to force this on English operating systems,
