@@ -19,7 +19,8 @@ internal class Program
 
     // TODO: put anything interesting into the image.
 
-    // Pilot: try to read one float number (3D camera rotation around the y axis)
+    // Pilot: try to read two float numbers (3D camera rotation - pitch and yaw in degrees)
+    // Test values: 10 30
     if (args.Length > 1 &&
         double.TryParse(args[0], NumberStyles.Float, CultureInfo.InvariantCulture, out double angleX) &&
         double.TryParse(args[1], NumberStyles.Float, CultureInfo.InvariantCulture, out double angleY))
@@ -99,7 +100,7 @@ internal class Program
     else
     {
       // Example - putting one red pixel close to the upper left corner...
-      float[] red = { 1.0f, 0.1f, 0.1f };   // R, G, B
+      float[] red = [1.0f, 0.1f, 0.1f];   // R, G, B
       fi.PutPixel(1, 1, red);
     }
 
