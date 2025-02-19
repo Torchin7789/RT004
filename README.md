@@ -24,7 +24,7 @@ it works well on Windows, Linux and macOS.
 We use `Visual Studio 2022`, the [Community](https://visualstudio.microsoft.com/vs/community/)
 (free) version is good enough for all tasks. Linux users can use
 [Visual Studio Code](https://code.visualstudio.com/), which is able to open
-`.sln`, `.csproj` files and even the saved options from Visual Studio. 
+`.sln`, `.csproj` files and even the saved options from Visual Studio.
 
 ## Point table
 See [this shared table](https://docs.google.com/spreadsheets/d/1z7dicAiSr7U_-kgMnJnSRNH-OPHIabCPl8GcJCNzz-o/edit?usp=sharing)
@@ -136,6 +136,10 @@ Please invite me - https://gitlab.mff.cuni.cz/pelikan.
   values, as this item is also versioned
 * Update your `README.md` file[s] frequently, preferably after each checkpoint,
   I'd like to see your progress
+* For Markdown syntax, see pages:
+  [Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),
+  [Another MarkDown page](https://www.markdownguide.org/),
+  [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * **Visual Studio 2022** supports direct **MarkDown editing** with live
   result preview
 * While both parsing and writing floating point numbers, use strictly
