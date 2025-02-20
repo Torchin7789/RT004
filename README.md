@@ -89,7 +89,7 @@ your name with your GIT account and email address.
 2. Connect it to
 our shared GIT using `git remote`. The command might look like this
 ```bash
-$ git remote add origin https://github.com/pepcape/RT004.git
+$ git remote add upstream https://github.com/pepcape/RT004.git
 ```
 3. Finally, you have to give me permissions to access your private
 repository, this is done using the **"Collaborator"** role.
@@ -102,7 +102,7 @@ your real name.
 2. Connect it to
 our shared GIT using `git remote`. The command might look like this
 ```bash
-$ git remote add origin https://github.com/pepcape/RT004.git
+$ git remote add upstream https://github.com/pepcape/RT004.git
 ```
 3. Finally, you have to give me permissions to access your private
 repository, this is done using the **"Reporter"** role.
@@ -147,5 +147,5 @@ Please invite me - https://gitlab.mff.cuni.cz/pelikan.
   only "dots" `3.14`. Remember to force this on English operating systems,
   (use `CultureInfo.InvariantCulture`), your code has to work on Czech/Slovak
   OS as well...
-* Update your repository clone ("pull from remote") often, I'll update
-  the original from time to time (small fixes in support files...)
+* Update your repository clone from upstream (`git pull upstream main`) often,
+  I'll update the original from time to time (small fixes in support files...)

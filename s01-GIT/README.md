@@ -1,8 +1,11 @@
 # Step01 - GIT repository setup
 * Create **your own private GIT repository** – [GitLab](https://gitlab.mff.cuni.cz/) and
   [GitHub](https://github.com/) are two recommended platforms.
-* Link the original (this) repository as **"remote"** - you can use the command
-  `git remote add origin https://github.com/pepcape/RT004.git`
+* Link the original (this) repository as **`remote upstream`** - you can use the command
+  `git remote add upstream https://github.com/pepcape/RT004.git`
+* Import data from the `upstream`, you will get the complete original repo,
+  you will be able to update it (`git pull upstream main`) and keep it
+  in sinc with `RT004`. However, you should work in the `solution` directory only.
 * Setup your own **Visual Studio project** – you can copy it from the
   [RT004/src/rt004](https://github.com/pepcape/RT004/tree/main/src/rt004).
   The recommended location for your solution is the [solution](../solution) directory.
